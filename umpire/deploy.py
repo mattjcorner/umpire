@@ -9,7 +9,6 @@ except NameError:
 import sys, os, json, time, traceback, shutil
 import maestro
 from distutils import dir_util
-from maestro.core import module
 from maestro.tools import path
 from snapp.module import AsyncModule
 
