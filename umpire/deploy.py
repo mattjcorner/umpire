@@ -25,9 +25,7 @@ class DeploymentError(Exception):
     pass
 
 class DeploymentModule(AsyncModule):
-    # Required ID of this module
-    id = "deploy"
-
+    
     #Cache Root
     cache_root = None
 
